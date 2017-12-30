@@ -252,8 +252,8 @@ paket-files/
 *.sln.iml
 
 _references.js
-**/wwwroot/app/**/*.js
-**/wwwroot/app/**/*.js.map
+**/wwwroot/**/*.js
+**/wwwroot/**/*.js.map
 
 **/wwwroot/css/*.css
 
