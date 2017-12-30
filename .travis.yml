@@ -1,6 +1,10 @@
 language : csharp
 dotnet : 2.0.0
-
-
 script:
 - dotnet build 
+after_success:
+- dotnet publish
+deploy:
+    command: 
+        -chmod +x ./deploy.sh 
+        - sh deploy.sh
