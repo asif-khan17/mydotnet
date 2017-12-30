@@ -8,8 +8,6 @@ before_install:
  - chmod +x ./deploy.sh
 script:
 - dotnet build 
-after_success:
-- dotnet publish
 deploy:
   provider: script
   script: sh deploy.sh
